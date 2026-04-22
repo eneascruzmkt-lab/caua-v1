@@ -194,7 +194,7 @@ const V2_STYLES = `
 
 .v2 .cta-btn {
   display: inline-flex; align-items: center; gap: 14px;
-  background: var(--neon); color: #ffffff;
+  background: var(--neon); color: #050606;
   padding: 22px 32px; border: none; cursor: pointer;
   font-family: 'IBM Plex Mono', monospace; font-weight: 700;
   font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase;
