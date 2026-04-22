@@ -95,10 +95,11 @@ const V2_STYLES = `
   color: var(--fg);
   position: relative;
   display: inline-block;
+  margin-left: auto; margin-right: auto;
 }
 .v2 .display-brand.tiktok::after {
   content: ''; display: block;
-  width: 60%; height: 6px; margin-top: 8px;
+  width: 60%; height: 6px; margin-top: 8px; margin-left: auto; margin-right: auto;
   background: var(--neon); box-shadow: 0 0 24px var(--neon);
 }
 .v2 .display-brand .tag {
@@ -216,7 +217,7 @@ const V2_STYLES = `
 button.cta-btn { -webkit-appearance: none; appearance: none; }
 .v2 .cta-btn::before {
   content: ''; position: absolute; top: 0; left: -100%; width: 60%; height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.25), transparent);
+  background: linear-gradient(90deg, transparent, rgba(0,0,0,0.18), transparent);
   transform: skewX(-20deg);
   animation: v2-shimmer 3s ease-in-out infinite;
   pointer-events: none;
